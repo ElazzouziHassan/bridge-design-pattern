@@ -2,8 +2,8 @@ package bridge.device;
 import bridge.IDevice;
 
 public class TV implements IDevice{
-  private boolean power = false;
-  private int volume = 10;
+  private boolean power = false; // État de l'alimentation (allumé/éteint)
+  private int volume = 10; // Niveau du volume (valeur par défaut)
 
   @Override
   public void powerOn() {
@@ -28,3 +28,14 @@ public class TV implements IDevice{
         return power;
     }
 }
+
+/*
+ * Explication :
+ * La TV a deux états principaux :
+ * Éteinte (power = false)
+ * Allumée (power = true)
+ * Elle peut également stocker et modifier son niveau de volume.
+ * Les méthodes powerOn() et powerOff() changent l'état de la TV et affichent un message dans la console.
+ * La méthode setVolume(int volume) ajuste le volume de la TV.
+ * La méthode isPoweredOn() permet de vérifier si la TV est allumée ou éteinte.
+ */
