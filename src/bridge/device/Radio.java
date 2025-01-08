@@ -2,8 +2,8 @@ package bridge.device;
 import bridge.IDevice;
 
 public class Radio implements IDevice {
-    private boolean power = false;
-    private int volume = 20;
+    private boolean power = false; // État de l'alimentation (allumé/éteint)
+    private int volume = 20; // Niveau du volume (valeur par défaut)
 
     @Override
     public void powerOn() {
@@ -28,3 +28,10 @@ public class Radio implements IDevice {
         return power;
     }
 }
+
+/*
+ * Explication :
+ * Les fonctionnalités de la Radio sont similaires à celles de la TV.
+ * Cependant, la radio peut avoir un volume par défaut différent (30 dans ce cas).
+ * Les méthodes permettent de gérer l'état (allumé/éteint) et le volume de la radio.
+ */
