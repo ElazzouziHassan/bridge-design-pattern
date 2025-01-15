@@ -2,7 +2,7 @@ package bridge.remote;
 import bridge.IDevice;
 
 public abstract class RemoteControl {
-  protected IDevice device; // Référence vers un appareil (Bridge)
+    protected IDevice device; // Référence vers un appareil (Bridge)
 
     public RemoteControl(IDevice device) {
         this.device = device;
