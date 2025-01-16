@@ -76,7 +76,7 @@ Dans ce projet :
 
 Un diagramme UML complet est inclus dans la présentation PowerPoint et dans le dépôt GitHub pour mieux comprendre les relations entre les classes.
 
-![Diagramme UML](./public/1.png)
+![Diagramme UML](./public/uml-diagramme.png)
 
 ---
 ## 🔄 Contributions
